@@ -1,0 +1,160 @@
+@font-face {
+	font-family: HelveticaNeue;
+	src: url("../fonts/HelveticaNeueCyr-Medium.otf") format("opentype");
+}
+
+body {
+	font-family: HelveticaNeue;
+}
+
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.wrapper {
+	max-width: 940px;
+	margin: auto;
+}
+
+.header-page {
+	margin-bottom: 20px;
+}
+
+.header-page__logo {
+	float: left;
+}
+
+.header-page__main-menu {
+	float: left;
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+.header-page__main-menu ul {
+	margin: 0;
+	padding: 0;
+	min-height: 108px;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	list-style-type: none;
+}
+
+.header-page__main-menu li {
+	padding: 0 15px;
+}
+
+.header-page__main-menu li.active {
+	border-right: 1px solid #949494;
+}
+
+.header-page__main-menu a {
+	text-decoration: none;
+	color: black;
+}
+
+.header-page__main-menu .active a {
+	color: red;
+}
+
+.contact-info {
+	float: left;
+	margin-left: 45px;
+	font-size: 12px;
+}
+
+.contact-info__mail {
+	display: inline-block;
+	color: red;
+	margin: 10px 0;
+	text-decoration: none;
+	border-bottom: 1px solid #e5c7c8;
+}
+
+.contact-info__phone {
+	display: inline-block;
+	font-weight: bold;
+	margin: 10px 0;
+	font-size: 22px;
+	color: red;
+}
+
+.spec-prepose {
+	position: relative;
+	border: 3px solid white;
+	border-radius: 2px;
+	box-shadow: -80px 80px 3px -80px #b6b6b6, 80px 80px 3px -80px #b6b6b6, 0 -59px 6px -60px #b6b6b6;
+}
+
+.spec-prepose__label {
+	position: absolute;
+	top: 75px;
+	left: 50px;
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+}
+
+.spec-prepose__label span {
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 4px 5px 0px;
+	margin-top: 5px;
+}
+
+.content-area {
+	margin-bottom: 60px;
+}
+
+.side-bar {
+	float: left;
+	width: 150px;
+	margin-right: 25px;
+}
+
+.side-bar__list {
+	list-style-type: none;
+	font-size: 12px;
+}
+
+.side-bar__list li:first-child {
+	margin-bottom: 25px;
+}
+
+.side-bar__list li {
+	margin-bottom: 20px;
+}
+
+.side-bar a {
+	text-decoration: none;
+	color: #949494;
+}
+
+.article--about-us {
+	margin-left: 170px;
+}
+
+.page-footer {
+	color: #949494;
+}
+
+.page-footer__copyright {
+	float: left;
+	margin-right: 60px;
+}
+
+.page-footer__call-us {
+	float: left;
+}
+
+.page-footer__phone {
+	font-size: 18px;
+	font-weitht: bold;
+	margin-right: 40px;
+}
+
